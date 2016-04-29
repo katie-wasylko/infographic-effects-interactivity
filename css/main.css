@@ -152,7 +152,7 @@ h2 {
 }
 
 .people {
-  color: black;
+  color: red;
   font-weight: bolder;
   font-size: .7rem;
   position: absolute;
@@ -489,99 +489,250 @@ h2 {
 
   .calendarfifty {
     top: 87%;
-    right: 10%;
+    left: 60%;
+    right: 0%;
     font-size: 1rem;
   }
 
   .calendar-one {
+    width: 12%;
     top: 96%;
-    left: 10%;
+    left: 57%;
   }
 
   .calendar-two {
+    width: 12%;
     top: 96%;
-    left: 40%;
-    position: absolute;
+    left: 71%;
   }
 
   .calendar-three {
+    width: 12%;
     top: 96%;
-    left: 70%;
+    left: 85%;
   }
 
   .calendarfour {
-    top: 110%;
+    top: 109%;
     font-size: 1rem;
-    right: 10%
+    left: 60%;
+    right: 0;
   }
 
   .graph {
-    top: 115%;
+    top: 78%;
+    width: 45%;
+    left: 14%;
   }
 
   .people {
-    top: 170%;
+    top: 140%;
     left: 20%;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .black {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 23%;
   }
 
   .white-one {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 31%;
   }
 
   .white-two {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 38%;
   }
 
   .white-three {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 45%;
   }
 
   .white-four {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 52%;
   }
 
   .white-five {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 59%;
   }
 
   .white-six {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 66%;
   }
 
   .white-seven {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 73%;
   }
 
   .white-eight {
     width: 6%;
-    top: 162%;
+    top: 125%;
     left: 80%;
   }
 
   .white-nine {
     width: 6%;
-    top: 162%;
+    top: 125%;
+    left: 87%;
+  }
+}
+
+@media only screen and (min-width:64em) {
+  h1 {
+    font-size: 8rem;
+    top: 8%;
+    left: 23%;
+  }
+
+  h2 {
+    font-size: 4rem;
+    left: 22%;
+    top: 34%;
+  }
+
+  .info {
+    top: 50%;
+    left: 20%;
+    right: 8%;
+    font-size: 1.3rem;
+  }
+
+  .houses {
+    top: 64.5%;
+    left: 16%;
+    width: 15%
+  }
+
+  .house {
+    font-size: 1.5rem;
+    top: 71%;
+    left: 32%;
+    right: 45%;
+    line-height: normal;
+  }
+
+  .pig {
+    top: 33%;
+    width: 55%;
+    left: 52%;
+  }
+
+  .calendarfifty {
+    top: 112%;
+    left: 62%;
+    right: 4%;
+    font-size: 1.3rem;
+  }
+
+  .calendar-one {
+    width: 12%;
+    top: 120%;
+    left: 57%;
+  }
+
+  .calendar-two {
+    width: 12%;
+    top: 120%;
+    left: 71%;
+  }
+
+  .calendar-three {
+    width: 12%;
+    top: 120%;
+    left: 85%;
+  }
+
+  .calendarfour {
+    top: 139%;
+    font-size: 1.3rem;
+    left: 62%;
+    right: 5%;
+  }
+
+  .graph {
+    top: 85%;
+    width: 43%;
+    left: 14%;
+  }
+
+  .people {
+    top: 179%;
+    left: 23%;
+    font-size: 2rem;
+  }
+
+  .black {
+    width: 6%;
+    top: 158%;
+    left: 23%;
+  }
+
+  .white-one {
+    width: 6%;
+    top: 158%;
+    left: 31%;
+  }
+
+  .white-two {
+    width: 6%;
+    top: 158%;
+    left: 38%;
+  }
+
+  .white-three {
+    width: 6%;
+    top: 158%;
+    left: 45%;
+  }
+
+  .white-four {
+    width: 6%;
+    top: 158%;
+    left: 52%;
+  }
+
+  .white-five {
+    width: 6%;
+    top: 158%;
+    left: 59%;
+  }
+
+  .white-six {
+    width: 6%;
+    top: 158%;
+    left: 66%;
+  }
+
+  .white-seven {
+    width: 6%;
+    top: 158%;
+    left: 73%;
+  }
+
+  .white-eight {
+    width: 6%;
+    top: 158%;
+    left: 80%;
+  }
+
+  .white-nine {
+    width: 6%;
+    top: 158%;
     left: 87%;
   }
 }
