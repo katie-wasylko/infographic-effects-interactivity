@@ -106,7 +106,7 @@ h2 {
   position: absolute;
   margin: 0;
   padding: 0;
-  top: 70%;
+  top: 66%;
   left: 24%;
   line-height: 130%;
   color: red;
@@ -116,7 +116,7 @@ h2 {
   margin: 0;
   padding: 0;
   width: 25%;
-  top: 75%;
+  top: 72%;
   left: 10%;
   position: absolute;
 }
@@ -125,7 +125,7 @@ h2 {
   margin: 0;
   padding: 0;
   width: 25%;
-  top: 75%;
+  top: 72%;
   left: 40%;
   position: absolute;
 }
@@ -134,22 +134,22 @@ h2 {
   margin: 0;
   padding: 0;
   width: 25%;
-  top: 75%;
+  top: 72%;
   left: 70%;
   position: absolute;
 }
 
 
 .calendarfour {
-  color: black;
+  color: blue;
   font-weight: bolder;
   font-size: .7rem;
   position: absolute;
   margin: 0;
   padding: 0;
-  top: 40%;
-  left: 22%;
-  line-height: 110%;
+  top: 81.5%;
+  left: 24%;
+  line-height: 130%;
 }
 
 .people {
@@ -159,15 +159,15 @@ h2 {
   position: absolute;
   margin: 0;
   padding: 0;
-  top: 50%;
-  left: 22%;
+  top: 122%;
+  left: 24%;
   line-height: 110%;
 }
 
 .pig {
   margin: 0;
   padding: 0;
-  top: 34%;
+  top: 31%;
   left: 10%;
   position: absolute;
 
@@ -176,29 +176,21 @@ h2 {
 .graph {
   margin: 0;
   padding: 0;
-  top: 80%;
+  top: 84%;
   position: absolute;
-  width: 70%;
-  left: 20%;
-}
-
-.white {
-  fill: none;
-  width: 5%;
-  stroke: #000;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-  position: absolute;
-  top: 70%;
+  width: 80%;
+  left: 15%;
 }
 
 .black {
   width: 4.8%;
   position: absolute;
-  top: 70%;
+  top: 117%;
+  z-index: 1000;
+  left: 25%;
 }
 
-.st0 {
+.st6 {
   fill: #FFF;
 }
 
@@ -223,4 +215,103 @@ h2 {
 
 .st4 {
   fill: #D91C5C;
+}
+
+.white-one {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 31%;
+}
+
+.white-two {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 37%;
+}
+
+.white-three {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 43%;
+}
+
+.white-four {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 49%;
+}
+
+.white-five {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 55%;
+}
+
+.white-six {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 61%;
+}
+
+.white-seven {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 67%;
+}
+
+.white-eight {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 73%;
+}
+
+.white-nine {
+  fill: none;
+  width: 5%;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 117%;
+  left: 79%;
 }
