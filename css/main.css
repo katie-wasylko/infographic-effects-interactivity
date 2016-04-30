@@ -321,7 +321,11 @@ h2 {
   position: absolute;
   top: 117%;
   left: 55%;
+  transform: scale(1);
+}
 
+.white-five:hover {
+  transform: scale(2);
 }
 
 .white-six {
@@ -333,6 +337,11 @@ h2 {
   position: absolute;
   top: 117%;
   left: 61%;
+  transform: scale(1);
+}
+
+.white-six:hover {
+  transform: scale(2);
 }
 
 .white-seven {
@@ -344,6 +353,11 @@ h2 {
   position: absolute;
   top: 117%;
   left: 67%;
+  transform: scale(1);
+}
+
+.white-seven:hover {
+  transform: scale(2);
 }
 
 .white-eight {
@@ -355,6 +369,11 @@ h2 {
   position: absolute;
   top: 117%;
   left: 73%;
+  transform: scale(1);
+}
+
+.white-eight:hover {
+  transform: scale(2);
 }
 
 .white-nine {
@@ -366,6 +385,11 @@ h2 {
   position: absolute;
   top: 117%;
   left: 79%;
+  transform: scale(1);
+}
+
+.white-nine:hover {
+  transform: scale(2);
 }
 
 .pulse {
