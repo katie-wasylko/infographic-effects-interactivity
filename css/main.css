@@ -337,6 +337,7 @@ h2 {
 }
 
 @media only screen and (min-width: 28em) {
+
   h1 {
     font-size: 3rem;
     top: 3%;
@@ -471,6 +472,7 @@ h2 {
 }
 
 @media only screen and (min-width: 48em) {
+
   h1 {
     font-size: 5.5rem;
     top: 3%;
@@ -616,6 +618,7 @@ h2 {
 }
 
 @media only screen and (min-width: 64em) {
+
   h1 {
     font-size: 8rem;
     top: 8%;
