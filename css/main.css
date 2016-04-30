@@ -333,11 +333,11 @@ h2 {
 @keyframes pulse {
 
   0% {
-    color: #001F3F;
+    color: #001f3f;
   }
 
   100% {
-    color: #FF4136;
+    color: #ff4136;
   }
 
 }
