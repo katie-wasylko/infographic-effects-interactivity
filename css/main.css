@@ -184,12 +184,12 @@ h2 {
 }
 
 .st6 {
-  fill: #FFF;
+  fill: #fff;
 }
 
 .st1 {
   fill: none;
-  stroke: #231F20;
+  stroke: #231f20;
   stroke-width: 2.6719;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -197,17 +197,17 @@ h2 {
 }
 
 .st2 {
-  fill: #231F20;
+  fill: #231f20;
 }
 
 .st3 {
   opacity: 0.49;
-  fill: #F0ECA1;
+  fill: #f0eca1;
   enable-background: new;
 }
 
 .st4 {
-  fill: #D91C5C;
+  fill: #d91c5c;
 }
 
 .black {
@@ -318,22 +318,25 @@ h2 {
 }
 
 .pulse {
-	animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
 }
 
 @keyframes pulse {
+
   0% {
     transform: scale(1.1);
- }
+  }
+
   50% {
     transform: scale(0.8);
- }
+  }
+
   100% {
     transform: scale(1);
- }
+  }
 }
 
-@media only screen and (min-width:28em) {
+@media only screen and (min-width: 28em) {
   h1 {
     font-size: 3rem;
     top: 3%;
@@ -353,7 +356,7 @@ h2 {
 
   .houses {
     left: 17%;
-    width: 30%
+    width: 30%;
   }
 
   .house {
@@ -392,7 +395,7 @@ h2 {
   .calendarfour {
     top: 110%;
     font-size: 1rem;
-    right: 10%
+    right: 10%;
   }
 
   .graph {
@@ -464,9 +467,10 @@ h2 {
     top: 162%;
     left: 87%;
   }
+
 }
 
-@media only screen and (min-width:48em) {
+@media only screen and (min-width: 48em) {
   h1 {
     font-size: 5.5rem;
     top: 3%;
@@ -488,7 +492,7 @@ h2 {
   .houses {
     top: 48%;
     left: 25%;
-    width: 20%
+    width: 20%;
   }
 
   .house {
@@ -608,9 +612,10 @@ h2 {
     top: 125%;
     left: 87%;
   }
+
 }
 
-@media only screen and (min-width:64em) {
+@media only screen and (min-width: 64em) {
   h1 {
     font-size: 8rem;
     top: 8%;
@@ -633,7 +638,7 @@ h2 {
   .houses {
     top: 64.5%;
     left: 16%;
-    width: 15%
+    width: 15%;
   }
 
   .house {
