@@ -598,6 +598,14 @@ h2 {
     left: 52%;
   }
 
+  .btn-show-hide {
+    position: absolute;
+    z-index: 1000000;
+    font-size: .5rem;
+    top: 86%;
+    left: 76.5%;
+  }
+
   .calendarfifty {
     top: 87%;
     left: 60%;
