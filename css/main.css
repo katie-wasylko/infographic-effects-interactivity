@@ -97,15 +97,7 @@ h2 {
 
 .smoke:hover {
   z-index: 1000;
-  transform: rotate(-15deg);
-}
-
-.home {
-  transform: scale(0);
-}
-
-.home:hover {
-  transform: scale(10em);
+  transform: rotate(-20deg);
 }
 
 .calendarfifty {
@@ -180,6 +172,15 @@ h2 {
   left: 10%;
   position: absolute;
 
+}
+
+.coin {
+  opacity: 0;
+  transition: all .5s ease;
+}
+
+.show {
+  opacity: 1;
 }
 
 .graph {
@@ -326,45 +327,17 @@ h2 {
 }
 
 .pulse {
-  animation-name: pulse_animation;
-  animation-duration: 5000ms;
-  transform-origin: 70% 70%;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: pulse 2s infinite;
 }
 
-@keyframes pulse_animation {
+@keyframes pulse {
 
   0% {
-    transform: scale(1);
-   }
-
-  30% {
-    transform: scale(1);
-  }
-
-  40% {
-    transform: scale(1.08);
-  }
-
-  50% {
-    transform: scale(1);
-  }
-
-  60% {
-     transform: scale(1);
-    }
-
-  70% {
-    transform: scale(1.05);
-  }
-
-  80% {
-     transform: scale(1);
+    color: #001F3F;
   }
 
   100% {
-    transform: scale(1);
+    color: #FF4136;
   }
 
 }
