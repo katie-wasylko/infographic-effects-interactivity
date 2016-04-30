@@ -1,5 +1,5 @@
-var $pig = $('.pig');
+var $showHide = $('.btn-show-hide');
 
-$pig.on('click', function () {
-  $('pig').toggleClass('show');
+$showHide.on('click', function () {
+  $('.coin').toggleClass('show');
 });
